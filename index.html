@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="./style.css"/>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                
+                <h1 class="logo"><span>K</span>etan </h1>
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#portfolio">My Work</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header">
+            <div class="header-text">
+                <p>Full Stack Developer</p>
+                <h1>Hi,I'm <span>Ketan</span> Katkar</h1>
+            </div>
+            <img class="header-img" src="./1702390810291-removebg-preview.png"></img>
+        </div>
+    </div>
+    </div>
+    <!-- -----------------about------------------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="./WhatsApp Image 2022-01-16 at 10.43.02 PM (1).jpeg" alt="not found"/>
+                </div>
+                <div class="about-col-2">
+                 <h1 class="sub-title">  About Me</h1> 
+                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, nisi. Libero perspiciatis quisquam quaerat? In maxime, non repellat ratione fugit officiis explicabo recusandae minus, tempore soluta sint cum numquam labore aspernatur odio cupiditate quod ipsum debitis aliquid nam! Quia, at.</p>
+               
+                 <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('Internship')">Internship</p>
+                    <p class="tab-links" onclick="opentab('Education')">Education</p>
+                 </div>
+
+                 <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li>HTML</li>
+                        <li>C.S.S</li>
+                        <li>JavaScript</li>
+                        <li>React</li>
+                        <li>Node.js</li>
+                        <li>express.js</li>
+                        <li>Redux.js</li>
+                        
+                    </ul>
+                 </div>
+                 <div class="tab-contents" id="Internship">
+                    <ul>
+                        
+                        <li><span>2022</span><br/>Six month In-plant training at Bolzen and Mutter Pvt.Ltd</li>
+                        <li><span>2019</span><br/>Vocation online Training by Tata Technology </li> 
+                        <li><span>2018</span><br/>One Month Internship at Prachi Forge Pvt.Ltd</li>
+                    </ul>
+                 </div>
+
+                 <div class="tab-contents" id="Education">
+                    <ul>
+                        <li><span>2022</span><br/>Mechanical Engineering from MIT Aurangabad</li>
+                        <li><span>2018</span><br/>12th from Shree Santaji Jr.College,Aurangabad</li>
+                        <li><span>2016</span><br/>10th from Dnyanprakash Vidya Mandir,Aurangabad</li>
+                    </ul>
+                 </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- .................................Projects........................................................ -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">  My work</h1> 
+            <div class="work-list">
+                <div class="work">
+                    <img src="https://d3vz6b3xpcmmd3.cloudfront.net/udemy-clone/bsetec/images/online-tutoring-software.webp" alt="not found"/>
+                    <div class="layer">
+                        <h3>Udemy Clone</h3>
+                        <p>In these app I have been clone udemy site.Please visit it by using following link.</p>
+                        <a href="https://gleeful-tanuki-2ced66.netlify.app/" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+
+                <div class="work">
+                    <img src="./e-commerce.avif" alt="not found"/>
+                    <div class="layer">
+                        <h3>E-commerce(Title) Website</h3>
+                        <p>Title-The online shopping site(stay h ome and shop easily)</p>
+                        <a href="https://peppy-gelato-e1bfd3.netlify.app/" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+
+                <div class="work">
+                    <img src="./chat-app.jpg" alt="not found"/>
+                    <div class="layer">
+                        <h3>Chat App</h3>
+                        <p>Online chatting site-(Let's Chat) when patcipiant joined link then he/she get added tpo conversation.</p>
+                        <a href="https://chat-app-hclt.onrender.com/" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+
+                <div class="work">
+                    <img src="./blog-app.jpg" alt="not found"/>
+                    <div class="layer">
+                        <h3>Blog App</h3>
+                        <p>React Blog App </p>
+                        <a href="https://idyllic-caramel-0907ff.netlify.app/" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+
+            </div>
+            <a href="#" class="btn">see More</a>
+        </div>
+    </div>
+
+    <!-- contact............................................... -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p> <i class="fa-solid fa-paper-plane"></i> ketankatkar213@gmail.com</p>
+                    <p><i class="fa-solid fa-square-phone"></i> 7972636048</p>
+                    <div class="social-icons">
+                        <!-- give proper links...................................................... -->
+                        <a href=""><i class="fa-brands fa-instagram"></i></a>
+                        <a href=""><i class="fa-brands fa-github"></i></a>
+                        <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <a href="./Full-stack-resume.pdf" download class="btn btn2">Download Cv</a>
+                </div>
+                <div class="contact-right">
+                    <form>
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>copyright © 2023 made by ketan katkar </p>
+        </div>
+    </div>
+    
+<script>
+    var tablinks=document.getElementsByClassName("tab-links")
+
+var tabcontents=document.getElementsByClassName("tab-contents")
+
+function opentab(tabname){
+
+for(tablink of tablinks){
+    tablink.classList.remove("active-link");
+
+}
+for(tabcontent of tabcontents){
+    tabcontent.classList.remove("active-tab");
+    
+}
+event.currentTarget.classList.add("active-link")
+document.getElementById(tabname).classList.add("active-tab");
+}
+
+var sidemenu=document.getElementById("sidemenu");
+
+function openmenu(){
+    sidemenu.style.right="0";
+
+}
+function closemenu(){
+    sidemenu.style.right="-200px";
+    
+}
+</script>    
+<script src="https://kit.fontawesome.com/87bf3bf1df.js" crossorigin="anonymous"></script>
+</body>
+</html>
